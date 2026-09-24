@@ -97,7 +97,7 @@ input::placeholder{
 #log{
     width: 100%;
     height: 50px;
-    background-color: #0866FF;
+    background-color: #0064e0;
     color: white;
     border: none;
     border-radius: 30px;
@@ -139,6 +139,9 @@ width: 100%;
 }
 #create:hover{
     background-color: #f2f4f7;
+}
+#create > a {
+    text-decoration: none;
 }
 #meta{
 position: absolute;
